@@ -76,6 +76,8 @@ TEMPLATES = [
     },
 ]
 
+AUTH_USER_MODEL = 'api.Account'
+
 WSGI_APPLICATION = 'todo_drf.wsgi.application'
 
 
