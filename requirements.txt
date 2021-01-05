@@ -1,0 +1,3 @@
+-r requirements-dex.txt
+gunicorn
+psycopg2
